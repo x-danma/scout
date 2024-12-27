@@ -11,5 +11,8 @@
         "github.copilot",
         "ms-azuretools.vscode-docker"
     ],
-    "remoteUser": "worker"
+    "remoteUser": "worker",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    }
 }
