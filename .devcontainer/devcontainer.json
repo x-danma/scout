@@ -1,0 +1,15 @@
+{
+    "name": "Scout",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "your_service_name", // Replace with the name of the service you want to connect to
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "github.copilot",
+        "ms-azuretools.vscode-docker"
+    ],
+    "remoteUser": "worker"
+}
